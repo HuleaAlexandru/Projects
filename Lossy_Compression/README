@@ -1,0 +1,16 @@
+This school project implements a lossy compresion algorithm in Cell Broadband
+Engine. Using DMA transfers, vector instructions and double buffering this
+project optimize the serial program. In the 'info' directory there are plots
+that shows the optimizations made by each technique.
+
+The project was run on the university cluster following the next steps.
+// clean the old version
+make -f Makefile_plots clean 
+// compile on the cell queue 
+qlogin -q ibm-cell-int.q
+make - fiind logat pe coada de cell interactiva
+exit
+// upload a task on the queue
+qsub -cwd -q ibm-cell-qs22.q -pe openmpi*12 12 script.sh
+// make plots
+make -f Makefile_plots

@@ -1,0 +1,12 @@
+This is an implementation of a player for the 'Dots and Boxes' game. The player
+is implemented in python 2, using a minimax algorithm and an alpha-beta pruning
+algorithm. The player has 2 strategies: in the early game it doesn't give boxes
+to the enemy, in the late game it takes the open chains and let the last 2 
+boxes to be closed by the enemy, making the opponent to open the next chain.
+
+This is a school project which provides a platform to simulate games between
+two players.
+python game_server.py simulate 6 fights between each 2 players from 'players'
+directory on 7 x 7, 11 x 11, 15 x 15 boards with each player being the first 
+and the second to start.
+python play.py simulate a game between my player and a human player.

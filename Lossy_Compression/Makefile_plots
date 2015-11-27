@@ -1,0 +1,23 @@
+plots: plot_mod_vect0 plot_mod_vect1 plot_mod_vect2 plot_compare plot_compare_dma
+
+plot_mod_vect0:
+	gnuplot -persist -e "set terminal png; set output 'mod_vect0.png'; set xlabel 'Numarul de spu'; set ylabel 'Timp de executie in secunde'; plot 'mod_vect0.out' using 1:2 title 'Operatii comprimare-decomprimare' with lines, 'mod_vect0.out' using 1:3 title 'Durata totala' with lines"
+
+plot_mod_vect1:
+	gnuplot -persist -e "set terminal png; set output 'mod_vect1.png'; set xlabel 'Numarul de spu'; set ylabel 'Timp de executie in secunde'; plot 'mod_vect1.out' using 1:2 title 'Operatii comprimare-decomprimare' with lines, 'mod_vect1.out' using 1:3 title 'Durata totala' with lines"
+
+plot_mod_vect2:
+	gnuplot -persist -e "set terminal png; set output 'mod_vect2.png'; set xlabel 'Numarul de spu'; set ylabel 'Timp de executie in secunde'; plot 'mod_vect2.out' using 1:2 title 'Operatii comprimare-decomprimare' with lines, 'mod_vect2.out' using 1:3 title 'Durata totala' with lines"
+
+plot_compare:
+	gnuplot -persist -e "set terminal png; set output 'compare.png'; set xlabel 'Numarul de spu'; set ylabel 'Timp de executie in secunde comprimare-decomprimare'; plot 'compare0.out' using 1:2 title 'mod_vect0' with lines, 'compare1.out' using 1:2 title 'mod_vect1' with lines, 'compare2.out' using 1:2 title 'mod_vect2' with lines"
+
+plot_compare_dma:
+	gnuplot -persist -e "set terminal png; set output 'compare_dma.png'; set xlabel 'Numarul de spu'; set ylabel 'Timp de executie in secunde comprimare-decomprimare'; plot 'compare1.out' using 1:2 title 'mod_dma0' with lines, 'compare1dma1.out' using 1:2 title 'mod_dma1' with lines"
+
+clean:
+	rm -rf *.png
+	rm -rf *.pgm
+	rm -rf *.cmp
+	rm -rf *.out
+	rm -rf script.sh.*

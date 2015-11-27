@@ -1,0 +1,19 @@
+This project implements a wave algorithm and a leader election algorithm in a 
+distributed environment using MPI.
+This is a school project that simulates a network in MPI. To run this project
+you have to compile the program with 'make' and run with the following command
+mpirun -np 12 ./tema4 test.in mesaje.in
+
+This project has 3 big steps:
+1. one node get the network configuration from an input file(here "test.in")
+and send it to all the other nodes. This way every node with know the network
+and will compute the shortest path from itself to all the other nodes.
+
+2. The input file "mesaje.in" contains the messages to be send in the format:
+source destination message.
+This step the nodes exchange messages.
+
+3. This step consists in a leader election algorithm. The nodes exchange
+messages to choose a leader and a second leader based on a specific criteria
+(here the leader will be the node with the least id)
+

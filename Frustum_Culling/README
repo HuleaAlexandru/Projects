@@ -1,0 +1,10 @@
+This school project implements a frustum algorithm in OpenGL and C++. It
+contains a town and a spotlight and on the second camera it is shown what
+objects are seen by the spotlight source(first camera).
+
+Keyboard inputs:
+- Translate left, right: i/u; up, down: y,t; forward, backward: p,o
+- Rotate on right direction: g,f; on up direction: j,h; on forward direction:
+l,k
+- Switch between the two cameras: c
+   

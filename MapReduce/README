@@ -1,0 +1,8 @@
+This project implements a MapReduce algorithm on a problem of similarities of
+files. Given a set of files the program takes each 2 files and determines how
+many words exists in both files. There are some tests which contains the sets
+of files. Test1 contains the 1mb files, test2 contains the 10mb files and test3
+contais the 5mb files.
+To run the program you have to give 3 command line arguments:
+number_of_threads input_test output_file
+The output file will be the similarities of the files which are over a limit.
