@@ -1,0 +1,1 @@
+This school project is minimal XKCD Android application. It downloads and displays cartoon pages from xkcd.com. We make a request to xkcd.com for a web page and parse the response, getting the image, its path and the two links to previous and next pages. This application requires internet to have acces to xkcd.com. 

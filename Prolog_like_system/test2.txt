@@ -1,0 +1,36 @@
+: Pentru bonus
+
+size(AB, 3)
+size(BC, 4)
+size(AC, 5)
+size(AD, 4)
+size(CD, 3)
+size(BE, 3)
+size(CE, 3)
+size(AF, 2)
+size(BF, 1)
+
+zero(0)
+is(?X, ?X)
+
+checks_out(1)
+checks_out(2)
+checks_out(3)
+
+triangle(?T) : size(get(?T, 0), ?LA), size(get(?T, 1), ?LB), size(get(?T, 2), ?LC), checks_out(compute_triangle(?LA, ?LB, ?LC))
+
+dreptunghic(?T) : size(get(?T, 0), ?LA), size(get(?T, 1), ?LB), size(get(?T, 2), ?LC), is(getShortest(?LA, ?LB, ?LC), ?LS), is(getMiddle(?LA, ?LB, ?LC), ?LM), is(getLongest(?LA, ?LB, ?LC), ?LL), zero(compute_pitagoras(?LS, ?LM, ?LL))
+
+? triangle(ABC)
+? triangle(BCE)
+? triangle(ACD)
+
+? triangle(ABF)
+? triangle(ABD)
+? triangle(ABE)
+
+? dreptunghic(ABC)
+? dreptunghic(ACD)
+
+? dreptunghic(BCE)
+? dreptunghic(ABF)

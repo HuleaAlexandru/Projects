@@ -1,0 +1,11 @@
+This project implements a Prolog like system in python 3. It consists mainly in a backward chaining algorithm based on resolution. It takes some knowledge and answer questions based on these knowledge. Because it is a school project it has some tests in code to validate the solution implemented. The project represents and reasons on first-order logic system. 
+
+Explanation of test1.txt
+P(1) - P is true for the value 1 taken as argument
+P(?x) - P is true for any value taken as argument
+pq(?x, ?y) : P(?x), Q(?y) -  pq(?x,?y) is true if the predicate P is true for x and the predicate Q is true for y
+
+? P(1) - question 
+: True - answer
+
+By decommenting the last line in HuleaAlexandru19930205.py and running the program a user can ask some questions based on the knowledge from the test1.txt file in an interactive terminal.

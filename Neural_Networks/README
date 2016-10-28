@@ -1,0 +1,18 @@
+This project consists in two type of neural networks(backpropagation, convolutional) used to clasify two dataset of images: MNIST and CIFAR.
+
+The backpropagation implementation contains several layers: Fully-Connected, Tanh, Linearize and Softmax.
+The Fully-Connected layer projects an input vector from a D dimensional space to a K dimensional space using the formula:
+y = O * x + b, O being the matrix of weights and b the bias vector.
+The Tanh layer applies the tanh function on each input value. It is a sigmoid function which is used to keep the output between -1 and 1.
+The Softmax layer is used in classification programs because it transforms a vector input of scores in a vector with all the values 0 excepting the one which is the class chosen(value 1). It is the last layer used in the neural network.
+The Linearize layer is used to transform a multi-dimensional vector received as input in a 1-dimensional vector.
+Architecture used: [(LINEARIZE, -1), (FULLY_CONNECTED, 300), (TANH, -1), (FULLY_CONNECTED, 100), (TANH, -1), (FULLY_CONNECTED, 10), (SOFTMAX, -1)]
+
+The convolutional neural network contains several other layers: Max-Pooling, Conv and ReLU. This type of neural networks starts from the idea that the data they are working on consists of images.
+The Conv layer uses feature maps and saves in them local features for every region. 
+The Max-Pooling layer reduces the number of neurons along each dimension.
+The ReLU applies a threshold for the input based on the function y = max(x,0).
+Architecture used: [(CONV, (6, 14, 14), 6, 2), (RELU, -1), (MAX_POOLING, (6, 7, 7)), (LINEARIZE, -1), (FULLY_CONNECTED, 49), (FULLY_CONNECTED, 10), (SOFTMAX, -1)]
+
+There are used 80% of data from the dataset as training set and 20% as test set. 
+In the plots section there are some results obtained by running the neural networks on MNIST, CIFAR, on different architectures and different learning rates.

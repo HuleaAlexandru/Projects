@@ -1,0 +1,70 @@
+﻿Build started 10/28/2016 8:12:52 PM.
+     1>Project "C:\Users\Alex\Desktop\internship_strainatate\Tree_Generator\lab_SPG_2_student\lab_gl_2.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         copy "C:\Users\Alex\Desktop\internship_strainatate\Tree_Generator\lab_SPG_2_student\dependente\freeglut\freeglut.dll" "C:\Users\Alex\Desktop\internship_strainatate\Tree_Generator\lab_SPG_2_student\Debug"
+         copy "C:\Users\Alex\Desktop\internship_strainatate\Tree_Generator\lab_SPG_2_student\dependente\glew\glew32.dll" "C:\Users\Alex\Desktop\internship_strainatate\Tree_Generator\lab_SPG_2_student\Debug"
+         
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(89): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(132): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(154): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(156): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(187): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(194): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(215): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(229): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(230): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(241): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(242): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(256): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(257): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(258): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(259): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(262): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(263): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(264): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(332): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(334): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(335): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(339): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(341): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(342): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(359): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(361): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(362): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(378): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(380): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(381): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(436): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(444): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(456): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(472): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(483): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(500): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(550): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(553): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(556): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(559): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(562): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(565): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(569): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(572): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(575): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(578): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(581): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\internship_strainatate\tree_generator\lab_spg_2_student\main.cpp(584): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\lab_gl_2.exe" /INCREMENTAL /NOLOGO /LIBPATH:dependente\freeglut /LIBPATH:dependente\glew opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\lab_gl_2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\lab_gl_2.lib" /MACHINE:X86 Debug\main.obj
+         lab_gl_2.vcxproj -> C:\Users\Alex\Desktop\internship_strainatate\Tree_Generator\lab_SPG_2_student\Debug\lab_gl_2.exe
+     1>Done Building Project "C:\Users\Alex\Desktop\internship_strainatate\Tree_Generator\lab_SPG_2_student\lab_gl_2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.80

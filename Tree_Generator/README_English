@@ -1,0 +1,25 @@
+This project is a computer graphics project which consists in generating a tree, showing the the main steps in this process: the skeleton, the trunk, the whole tree - adding leaves. The project covers several computer graphics techniques like lightning(Blinn-Phong model) and texture mapping on 3D objects.
+The projects also contains a camera and a light object and both can be moved by pressing some specific buttons.
+
+Input:
+Camera:
+w,s - translation on oz axis
+a,d - translation on ox axis
+q,e - translation on oy axis
+
+t,g - fps rotation on oz axis
+f,h - fps rotation on ox axis
+r,y - fps rotation on oy axis
+
+i,k - tps rotation on oz axis
+j,l - tps rotation on ox axis
+u,o - tps rotation on oy axis
+
+z - switch between steps - skeleton, trunk, tree
+x - switch wireframe / not wireframe
+
+Light:
+8,2 - translation on oz axis
+4,6 - translation on ox axis
+7,9 - translation on oy axis
+

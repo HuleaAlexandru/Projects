@@ -6,7 +6,7 @@ boxes to be closed by the enemy, making the opponent to open the next chain.
 
 This is a school project which provides a platform to simulate games between
 two players.
-python game_server.py simulate 6 fights between each 2 players from 'players'
+python game_server.py simulates 6 fights between each 2 players from 'players'
 directory on 7 x 7, 11 x 11, 15 x 15 boards with each player being the first 
 and the second to start.
-python play.py simulate a game between my player and a human player.
+python play.py simulates a game between my player and a human player.
