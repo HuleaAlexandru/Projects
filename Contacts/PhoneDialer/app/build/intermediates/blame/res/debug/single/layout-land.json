@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Alex\\Desktop\\PhoneDialer\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\content_phone_dialer.xml",
+        "source": "C:\\Users\\Alex\\Desktop\\PhoneDialer\\app\\src\\main\\res\\layout-land\\content_phone_dialer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Desktop\\PhoneDialer\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_phone_dialer.xml",
+        "source": "C:\\Users\\Alex\\Desktop\\PhoneDialer\\app\\src\\main\\res\\layout-land\\activity_phone_dialer.xml"
+    }
+]

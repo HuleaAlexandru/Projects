@@ -1,0 +1,1 @@
+This application uses JmDNS (a multi-cast DNS open source project) to register and discover services inside a local network. Each device can register a service inside its local network passing a port number. Also each device can search for services inside the local network. The service provided by this application is a client-server application - a chat.

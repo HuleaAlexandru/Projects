@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_3928f0adb428cdcafc32965862925b54545209ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.0_22ceda49d3814ccbdbf136bdab66b66792aeccaa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.0_56c34d12aae6c044bb5ffdc2a94b609b4d602244.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_95250c75b6926ab817d79c5d4466391b38084ad6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_f340a3e1adbc70a5862442117e8153fd79f11fbb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_61306aa3e1afe341a58f6bfff2e2ee5d5b8da1a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_b1527385414a254e90ac3ca0d53a0880b6f60ec4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\Alex\Desktop\PhoneDialer\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_0b0c5e25da15c49e03a90ee5077ea996015c4e9e.jar" />
+    </item>
+
+</items>
